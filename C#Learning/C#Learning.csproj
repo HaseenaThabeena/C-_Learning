@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array_Dup.cs" />
+    <Compile Include="Calculator.cs" />
     <Compile Include="Fruit.cs" />
     <Compile Include="MinMax.cs" />
     <Compile Include="Program.cs" />

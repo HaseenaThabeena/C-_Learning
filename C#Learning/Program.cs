@@ -11,13 +11,16 @@ namespace C_Learning
     {
         static void Main(string[] args)
         {
-            //Array_Dup arrayDup =new Array_Dup();
+            //Array_Dup arrayDup = new Array_Dup();
             //arrayDup.arrayDuplicate();
             //MinMax min_max = new MinMax();
             //min_max.Min_Max();
-            Fruit fruit_size = new Fruit();
-            fruit_size.getinput();
-            fruit_size.Display();
+            //Fruit fruit_size = new Fruit();
+            //fruit_size.getinput();
+            //fruit_size.Display();
+            Calculator cal = new Calculator();
+            cal.getInput();
+            cal.Functions();
 
         }
 
