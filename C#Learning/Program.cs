@@ -20,7 +20,7 @@ namespace C_Learning
             //fruit_size.Display();
             Calculator cal = new Calculator();
             cal.getInput();
-            cal.Functions();
+           
 
         }
 

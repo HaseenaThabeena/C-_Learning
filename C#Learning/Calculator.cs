@@ -10,13 +10,14 @@ namespace C_Learning
     {
         int a;
         int b;
-
+        //int d;
         public void getInput()
         {
             Console.WriteLine("Enter the Value for A");
             a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter the Value for B");
             b = Convert.ToInt32(Console.ReadLine());
+            Functions();
         }
         public void Functions()
         {
@@ -26,8 +27,13 @@ namespace C_Learning
             Console.WriteLine("3.Multiply" );
             Console.WriteLine("4.Division" );
             Console.WriteLine("5.Modlous" );
+            Console.WriteLine("6.Exit");
             int c = Convert.ToInt32(Console.ReadLine());
-           switch (c)
+            while(c != 6)
+            {
+
+            }
+            switch (c)
             {
                 case 1:
                     Console.WriteLine("Add Result" + (a + b));
@@ -44,10 +50,29 @@ namespace C_Learning
                 case 5:
                     Console.WriteLine("Mod Result" + (a % b));
                     break;
+                case 6:
+                    break;
                 default:
                     Console.WriteLine("Invalid...!!!");
                     break;
             }
+
+            //Console.WriteLine("Do You Want to continue ?");
+            //Console.WriteLine("Enter Options");
+            //Console.WriteLine("1.Yes");
+            //Console.WriteLine("2.No");
+            //d = Convert.ToInt32(Console.ReadLine());
+
+            //if (d == 1)
+            //{
+            //   getInput();
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Thank you");
+            //    return;
+            //}
+         
             Console.ReadKey();
            
         }
