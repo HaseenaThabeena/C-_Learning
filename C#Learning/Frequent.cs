@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace C_Learning
+{
+    internal class Frequent
+    {
+        string str;
+        char ch;
+        public void getInput()
+        {
+            Console.WriteLine("Enter the string to check the frequency");
+            str = Console.ReadLine();
+            checkFrequency();
+        }
+        public void checkFrequency()
+        {
+
+        }
+    }
+}

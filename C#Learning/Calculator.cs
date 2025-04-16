@@ -29,34 +29,31 @@ namespace C_Learning
             Console.WriteLine("5.Modlous" );
             Console.WriteLine("6.Exit");
             int c = Convert.ToInt32(Console.ReadLine());
-            while(c != 6)
-            {
-
-            }
-            switch (c)
-            {
-                case 1:
-                    Console.WriteLine("Add Result" + (a + b));
-                    break;
-                case 2:
-                    Console.WriteLine("Sub Result" + (a - b));
-                    break;
-                case 3:
-                    Console.WriteLine("Multiply Result" + (a * b));
-                    break;
-                case 4:
-                    Console.WriteLine("Division Result" + (a / b));
-                    break;
-                case 5:
-                    Console.WriteLine("Mod Result" + (a % b));
+           
+                switch (c)
+                {
+                    case 1:
+                        Console.WriteLine("Add Result" + (a + b));
+                        break;
+                    case 2:
+                        Console.WriteLine("Sub Result" + (a - b));
+                        break;
+                    case 3:
+                        Console.WriteLine("Multiply Result" + (a * b));
+                        break;
+                    case 4:
+                        Console.WriteLine("Division Result" + (a / b));
+                        break;
+                    case 5:
+                        Console.WriteLine("Mod Result" + (a % b));
                     break;
                 case 6:
                     break;
                 default:
-                    Console.WriteLine("Invalid...!!!");
-                    break;
-            }
-
+                        Console.WriteLine("Invalid...!!!");
+                        break;
+                }
+        }
             //Console.WriteLine("Do You Want to continue ?");
             //Console.WriteLine("Enter Options");
             //Console.WriteLine("1.Yes");
@@ -73,8 +70,8 @@ namespace C_Learning
             //    return;
             //}
          
-            Console.ReadKey();
+            //Console.ReadKey();
            
-        }
+        
     }
 }

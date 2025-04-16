@@ -18,9 +18,13 @@ namespace C_Learning
             //Fruit fruit_size = new Fruit();
             //fruit_size.getinput();
             //fruit_size.Display();
-            Calculator cal = new Calculator();
-            cal.getInput();
-           
+            //Calculator cal = new Calculator();
+            //cal.getInput();
+            SquarePattern sqrpat = new SquarePattern();
+            sqrpat.squareprint();
+            //Factorial Facto = new Factorial();
+            //Facto.get_input();
+
 
         }
 
