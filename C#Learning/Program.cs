@@ -20,10 +20,12 @@ namespace C_Learning
             //fruit_size.Display();
             //Calculator cal = new Calculator();
             //cal.getInput();
-            SquarePattern sqrpat = new SquarePattern();
-            sqrpat.squareprint();
+            //SquarePattern sqrpat = new SquarePattern();
+            //sqrpat.squareprint();
             //Factorial Facto = new Factorial();
             //Facto.get_input();
+            Palindrome pali = new Palindrome();
+            pali.getInput();
 
 
         }

@@ -21,9 +21,9 @@ namespace C_Learning
             for(int i=1; i<=number; i++)
             {
                 j = j * i;
-                Console.WriteLine(j);
+              //  Console.WriteLine(j);
             }
-            //Console.WriteLine($"Factorial value {number} " + j);
+            Console.WriteLine($"Factorial value {number}:  " + j);
             Console.ReadKey();
         }
     }
