@@ -13,8 +13,8 @@ namespace C_Learning
         {
             //Array_Dup arrayDup = new Array_Dup();
             //arrayDup.arrayDuplicate();
-            //MinMax min_max = new MinMax();
-            //min_max.Min_Max();
+            MinMax min_max = new MinMax();
+            min_max.Min_Max();
             //Fruit fruit_size = new Fruit();
             //fruit_size.getinput();
             //fruit_size.Display();
@@ -24,8 +24,10 @@ namespace C_Learning
             //sqrpat.squareprint();
             //Factorial Facto = new Factorial();
             //Facto.get_input();
-            Palindrome pali = new Palindrome();
-            pali.getInput();
+            //Palindrome pali = new Palindrome();
+            //pali.getInput();
+            //Frequent freq = new Frequent();
+            //freq.input();
 
 
         }
