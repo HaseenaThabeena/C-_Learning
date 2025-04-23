@@ -11,7 +11,7 @@ namespace C_Learning
         public void Min_Max()
         {
             int[] arr = { 1, 2, 5, 7, 3, 12, 4, 78, 4, 43, 56, 89, 21, 34 , 100 , 500 };
-            //Array.Sort(Array1);
+            //Array.Sort(arr);
             //Console.WriteLine("Min " + arr[0]);
             //int a = arr.Length;
             //Console.WriteLine("Max " + arr[a - 1]);

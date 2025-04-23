@@ -40,8 +40,9 @@ namespace C_Learning
             foreach (string item in list)
             {
                 Console.WriteLine(item);
-                if (list[[item]])
+                
             }
+
             
 
             Console.ReadKey();
