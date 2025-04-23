@@ -13,8 +13,8 @@ namespace C_Learning
         {
             //Array_Dup arrayDup = new Array_Dup();
             //arrayDup.arrayDuplicate();
-            MinMax min_max = new MinMax();
-            min_max.Min_Max();
+            //MinMax min_max = new MinMax();
+            //min_max.Min_Max();
             //Fruit fruit_size = new Fruit();
             //fruit_size.getinput();
             //fruit_size.Display();
@@ -28,8 +28,14 @@ namespace C_Learning
             //pali.getInput();
             //Frequent freq = new Frequent();
             //freq.input();
-
-
+            //Circlecircum circle_cir = new Circlecircum();
+            //circle_cir.getInput();
+            //Comparsion com = new Comparsion();
+            //com.getInput();
+            //Age age_com = new Age();
+            //age_com.getInput();
+            Temp temp = new Temp();
+            temp.getInput();
         }
 
 

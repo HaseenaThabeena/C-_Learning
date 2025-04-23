@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Age.cs" />
     <Compile Include="Array_Dup.cs" />
     <Compile Include="Calculator.cs" />
+    <Compile Include="Circlecircum.cs" />
+    <Compile Include="Comparsion.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="Frequent.cs" />
     <Compile Include="Fruit.cs" />
@@ -53,6 +56,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SquarePattern.cs" />
+    <Compile Include="Temp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

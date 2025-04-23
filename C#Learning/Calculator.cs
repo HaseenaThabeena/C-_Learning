@@ -8,9 +8,8 @@ namespace C_Learning
 {
     internal class Calculator
     {
-        int a;
-        int b;
-        //int d;
+        int a,b,d;
+       
         public void getInput()
         {
             Console.WriteLine("Enter the Value for A");
@@ -22,55 +21,57 @@ namespace C_Learning
         public void Functions()
         {
             Console.WriteLine("Enter the Options");
-            Console.WriteLine("1.Add" );
-            Console.WriteLine("2.Sub" );
-            Console.WriteLine("3.Multiply" );
-            Console.WriteLine("4.Division" );
-            Console.WriteLine("5.Modlous" );
+            Console.WriteLine("1.Add");
+            Console.WriteLine("2.Sub");
+            Console.WriteLine("3.Multiply");
+            Console.WriteLine("4.Division");
+            Console.WriteLine("5.Modlous");
             Console.WriteLine("6.Exit");
             int c = Convert.ToInt32(Console.ReadLine());
-           
-                switch (c)
-                {
-                    case 1:
-                        Console.WriteLine("Add Result" + (a + b));
-                        break;
-                    case 2:
-                        Console.WriteLine("Sub Result" + (a - b));
-                        break;
-                    case 3:
-                        Console.WriteLine("Multiply Result" + (a * b));
-                        break;
-                    case 4:
-                        Console.WriteLine("Division Result" + (a / b));
-                        break;
-                    case 5:
-                        Console.WriteLine("Mod Result" + (a % b));
+
+            switch (c)
+            {
+                case 1:
+                    Console.WriteLine("Add Result" + (a + b));
+                    break;
+                case 2:
+                    Console.WriteLine("Sub Result" + (a - b));
+                    break;
+                case 3:
+                    Console.WriteLine("Multiply Result" + (a * b));
+                    break;
+                case 4:
+                    Console.WriteLine("Division Result" + (a / b));
+                    break;
+                case 5:
+                    Console.WriteLine("Mod Result" + (a % b));
                     break;
                 case 6:
-                    break;
+                    return;
                 default:
-                        Console.WriteLine("Invalid...!!!");
-                        break;
-                }
-        }
-            //Console.WriteLine("Do You Want to continue ?");
-            //Console.WriteLine("Enter Options");
-            //Console.WriteLine("1.Yes");
-            //Console.WriteLine("2.No");
-            //d = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Invalid...!!!");
+                    break;
+            }
+          
 
-            //if (d == 1)
-            //{
-            //   getInput();
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Thank you");
-            //    return;
-            //}
-         
-            //Console.ReadKey();
+            Console.WriteLine("Do You Want to continue ?");
+            Console.WriteLine("Enter Options");
+            Console.WriteLine("1.Yes");
+            Console.WriteLine("2.No");
+            d = Convert.ToInt32(Console.ReadLine());
+
+            if (d == 1)
+            {
+                getInput();
+            }
+            else
+            {
+                Console.WriteLine("Thank you");
+                return;
+            }
+            Console.ReadKey();
+        }
+       
            
         
     }
