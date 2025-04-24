@@ -36,9 +36,11 @@ namespace C_Learning
             //age_com.getInput();
             //Temp temp = new Temp();
             //temp.getInput();
-            Constructor cons = new Constructor();
-            Constructor cons1 = new Constructor("ans",2);
-            Console.WriteLine("name" + cons1.name, "j " + cons1.j);
+            //Constructor cons = new Constructor();
+            //Constructor cons1 = new Constructor("ans",2);
+            //Console.WriteLine("name" + cons1.name, "j " + cons1.j);
+            Table7 tab7 = new Table7();
+            tab7.multiply();
         }
 
 
