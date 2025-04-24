@@ -21,6 +21,7 @@ namespace C_Learning
             if (!isValid)
             {
                 Console.WriteLine("Invalid input. Please enter a valid number.");
+                Console.ReadKey();
                 return;
             }
             if (temperature > 30)
