@@ -49,9 +49,11 @@
     <Compile Include="Circlecircum.cs" />
     <Compile Include="Comparsion.cs" />
     <Compile Include="Constructor.cs" />
+    <Compile Include="Even.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="Frequent.cs" />
     <Compile Include="Fruit.cs" />
+    <Compile Include="Largest3.cs" />
     <Compile Include="MinMax.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="Prime.cs" />
@@ -62,6 +64,7 @@
     <Compile Include="SquarePattern.cs" />
     <Compile Include="Table7.cs" />
     <Compile Include="Temp.cs" />
+    <Compile Include="Vowels.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

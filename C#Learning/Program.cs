@@ -41,10 +41,17 @@ namespace C_Learning
             //Console.WriteLine("name" + cons1.name, "j " + cons1.j);
             //Table7 tab7 = new Table7();
             //tab7.getInput();
-            Reversestring revstr = new Reversestring();
-            revstr.getInput();
+            //Reversestring revstr = new Reversestring();
+            //revstr.getInput();
             //Prime prime_val = new Prime();
             //prime_val.getInput();
+            //Largest3 large3 = new Largest3();
+            //large3.getInput();
+            //Even even_num = new Even();
+            //even_num.even();
+            Vowels vow = new Vowels();
+            vow.getInput();
+
         }
 
 
