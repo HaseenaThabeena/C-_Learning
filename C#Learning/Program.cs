@@ -43,6 +43,8 @@ namespace C_Learning
             //tab7.getInput();
             Reversestring revstr = new Reversestring();
             revstr.getInput();
+            //Prime prime_val = new Prime();
+            //prime_val.getInput();
         }
 
 

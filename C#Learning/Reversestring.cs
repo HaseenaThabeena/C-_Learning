@@ -18,9 +18,12 @@ namespace C_Learning
             reverse();
         }
         public void reverse() {            
-            Array.Reverse(revname);       
-            string revstr = new string(revname);
-            Console.WriteLine("Reverse String: " + revstr);
+            Array.Reverse(revname);
+            Console.WriteLine("Reverse String: " );
+            foreach (var item in revname)
+            {
+                Console.Write(item);
+            }
             Console.ReadKey();
         }
         
