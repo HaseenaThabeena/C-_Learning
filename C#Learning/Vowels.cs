@@ -9,7 +9,7 @@ namespace C_Learning
     internal class Vowels
     {
         string str;
-        char[] vow = { 'a', 'e', 'i', 'o', 'u' };
+        char[] vow = { 'a', 'e', 'i', 'o', 'u', 'A','E','I', 'O', 'U'};
         char[] a;
         int v, c;
         public void getInput()
@@ -17,16 +17,18 @@ namespace C_Learning
             Console.WriteLine("Enter the string");
             str = Console.ReadLine();
             a = str.ToCharArray();
-            for(int i=0; i<= a.Length; i++)
+            for(int i=0; i< a.Length; i++)
             {
-                
-                    if (a[i] == vow[i])
+                for (int j = 0; j < vow.Length; j++)
+                {
+                    if (vow[j] == a[i])
                     {
                         v++;
                     }
-                
-                Console.WriteLine($"Vowels {v}");
+                }                              
             }
+            Console.WriteLine($"Vowels {v}");
+            Console.WriteLine($"Constants {(a.Length) - v}");
             Console.ReadKey();
         }
     }
