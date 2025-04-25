@@ -49,9 +49,10 @@ namespace C_Learning
             //large3.getInput();
             //Even even_num = new Even();
             //even_num.even();
-            Vowels vow = new Vowels();
-            vow.getInput();
-
+            //Vowels vow = new Vowels();
+            //vow.getInput();
+            Stringalignement stralign = new Stringalignement();
+            stralign.value();
         }
 
 

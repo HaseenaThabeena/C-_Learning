@@ -62,6 +62,7 @@
     <Compile Include="Reversestring.cs" />
     <Compile Include="SecLarge.cs" />
     <Compile Include="SquarePattern.cs" />
+    <Compile Include="Stringalignement.cs" />
     <Compile Include="Table7.cs" />
     <Compile Include="Temp.cs" />
     <Compile Include="Vowels.cs" />

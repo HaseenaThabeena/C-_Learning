@@ -11,6 +11,7 @@ namespace C_Learning
         int number1,number ;
         public void getInput()
         {
+            Console.WriteLine("****** Multiplication Table ******");
             Console.WriteLine("Enter the value of the table");
             number = Convert.ToInt32(Console.ReadLine());
             multiply();

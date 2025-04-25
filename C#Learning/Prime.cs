@@ -11,6 +11,7 @@ namespace C_Learning
         int a, b;
         public void getInput()
         {
+            Console.WriteLine("****** Prime Numbers ******");
             Console.WriteLine("Enter the number to check prime or not");
             a = Convert.ToInt32(Console.ReadLine());
             primevalue();
@@ -24,13 +25,13 @@ namespace C_Learning
                     b++;
                 }
             }
-            if(b == 3)
+            if(b >= 3)
             {
-                Console.WriteLine($"{a} is prime");
+                Console.WriteLine($"{a} is not prime");
             }
             else
             {
-                Console.WriteLine($"{a} not a prime");
+                Console.WriteLine($"{a} a prime");
             }
             Console.ReadKey();
         }

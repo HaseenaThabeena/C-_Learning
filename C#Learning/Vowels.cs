@@ -14,6 +14,7 @@ namespace C_Learning
         int v, c;
         public void getInput()
         {
+            Console.WriteLine("****** Vowels ******");
             Console.WriteLine("Enter the string");
             str = Console.ReadLine();
             a = str.ToCharArray();

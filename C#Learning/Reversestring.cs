@@ -12,6 +12,7 @@ namespace C_Learning
         char[] revname;
         public void getInput()
         {
+            Console.WriteLine("****** Reverse String ******");
             Console.WriteLine("Enter the String");
             name = Console.ReadLine();
             revname = name.ToCharArray();
