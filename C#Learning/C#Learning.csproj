@@ -53,6 +53,7 @@
     <Compile Include="Digitcheck.cs" />
     <Compile Include="Divisors.cs" />
     <Compile Include="Even.cs" />
+    <Compile Include="EventCounter.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="Frequent.cs" />
     <Compile Include="Fruit.cs" />

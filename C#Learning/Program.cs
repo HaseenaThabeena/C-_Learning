@@ -59,8 +59,10 @@ namespace C_Learning
             //divide.getInput();
             //SecLarge secondlarge = new SecLarge();
             //secondlarge.getInput();
-            Digitcheck digit = new Digitcheck();
-            digit.getInput();
+            //Digitcheck digit = new Digitcheck();
+            //digit.getInput();
+            EventCounter eventcount = new EventCounter();
+            eventcount.Run();
         }
 
 
