@@ -15,7 +15,7 @@ namespace C_Learning
             Dictionary<int, string> dictvalue = new Dictionary<int, string>();
             foreach (var item in words)
             {
-                for (int i = 0; i < words.Length; i++)
+                for (int i = 0; i < item.Length; i++)
                 {
                     if (char.IsDigit(item[i]))
                     {
