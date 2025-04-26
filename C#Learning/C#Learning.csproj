@@ -49,6 +49,9 @@
     <Compile Include="Circlecircum.cs" />
     <Compile Include="Comparsion.cs" />
     <Compile Include="Constructor.cs" />
+    <Compile Include="CountNegatives.cs" />
+    <Compile Include="Digitcheck.cs" />
+    <Compile Include="Divisors.cs" />
     <Compile Include="Even.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="Frequent.cs" />

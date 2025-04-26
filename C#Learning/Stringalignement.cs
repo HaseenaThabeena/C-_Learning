@@ -9,13 +9,12 @@ namespace C_Learning
     internal class Stringalignement
     {
         string str = "coding4 love2 I1 Python3";
-        string revwords;
         public void value()
         {
             string[] words = str.Split(' ');
             Dictionary<int, string> dictvalue = new Dictionary<int, string>();
             foreach (var item in words)
-            {              
+            {
                 for (int i = 0; i < words.Length; i++)
                 {
                     if (char.IsDigit(item[i]))
@@ -25,18 +24,17 @@ namespace C_Learning
                         dictvalue[position] = cleanWord;
                         break;
                     }
+                }        
+                string result = " ";
+                for (int i = 1; i <= dictvalue.Count; i++)
+                {
+                    result += dictvalue[i];
+                    if (i < dictvalue.Count)
+                        result += " ";
                 }
-
-                
-
-                
-                
+                Console.WriteLine(result);              
             }
             Console.ReadKey();
-           
         }
-
-
-
     }
 }

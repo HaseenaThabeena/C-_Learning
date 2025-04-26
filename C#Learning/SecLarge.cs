@@ -8,10 +8,33 @@ namespace C_Learning
 {
     internal class SecLarge
     {
-        public void large()
+        int[] large = new int[10];
+        public void getInput()
         {
-            int[] arr = { 1, 2, 5, 7, 3, 12, 4, 78, 4, 43, 56, 89, 21, 34, 100, 500 };
-            
+            Console.WriteLine("****** Largest 3 Numbers ******");
+            Console.WriteLine("Enter the 10 values");
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write("element - {0} : ", i);
+                large[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            output();
+        }
+        public void output()
+        {
+            Array.Sort(large);
+            Console.WriteLine("Second Largest element" + large[large.Length-1]);
+            //for (int i = 1; i < large.Length; i++)
+            //{
+            //    if (large[i] >= 10)
+            //    {
+            //        Console.WriteLine("element greater than 10: " + large[i]);
+            //        Console.WriteLine("Index" + i);
+            //        break;
+            //    }
+            //}
+            Console.ReadKey();
         }
     }
 }

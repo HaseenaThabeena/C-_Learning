@@ -51,8 +51,16 @@ namespace C_Learning
             //even_num.even();
             //Vowels vow = new Vowels();
             //vow.getInput();
-            Stringalignement stralign = new Stringalignement();
-            stralign.value();
+            //Stringalignement stralign = new Stringalignement();
+            //stralign.value();
+            //CountNegatives count_neg = new CountNegatives();
+            //count_neg.getInput();
+            //Divisors divide = new Divisors();
+            //divide.getInput();
+            //SecLarge secondlarge = new SecLarge();
+            //secondlarge.getInput();
+            Digitcheck digit = new Digitcheck();
+            digit.getInput();
         }
 
 
