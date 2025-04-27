@@ -8,31 +8,43 @@ namespace C_Learning
 {
     internal class Stringalignement
     {
-        string str = "coding4 love2 I1 Python3";
+        string str;
+        Dictionary<int, string> dictvalue = new Dictionary<int, string>();
+        public void getInput()
+        {
+            Console.WriteLine("Enter the string with end numbers");
+            str = Console.ReadLine();
+            value();
+        }
         public void value()
         {
             string[] words = str.Split(' ');
-            Dictionary<int, string> dictvalue = new Dictionary<int, string>();
             foreach (var item in words)
             {
+                int position = 0;
+                string onlyWord = "";
                 for (int i = 0; i < item.Length; i++)
-                {
+                {                 
                     if (char.IsDigit(item[i]))
                     {
-                        int position = item[i] - '0';
-                        string cleanWord = item.Remove(i, 1);
-                        dictvalue[position] = cleanWord;
-                        break;
+                        position = item[i];
                     }
-                }        
-                string result = " ";
-                for (int i = 1; i <= dictvalue.Count; i++)
-                {
-                    result += dictvalue[i];
-                    if (i < dictvalue.Count)
-                        result += " ";
+                    else
+                    {
+                        onlyWord += item[i];
+                    }
                 }
-                Console.WriteLine(result);              
+                if (position != 0)
+                    dictvalue[position] = onlyWord;
+            }
+
+
+            List<int> keys_sorted = new List<int>(dictvalue.Keys);
+            keys_sorted.Sort();
+            Console.Write("The Final Output:");
+            foreach (var k in keys_sorted)
+            {
+                Console.Write(dictvalue[k] + " ");
             }
             Console.ReadKey();
         }

@@ -51,8 +51,8 @@ namespace C_Learning
             //even_num.even();
             //Vowels vow = new Vowels();
             //vow.getInput();
-            //Stringalignement stralign = new Stringalignement();
-            //stralign.value();
+            Stringalignement stralign = new Stringalignement();
+            stralign.getInput();
             //CountNegatives count_neg = new CountNegatives();
             //count_neg.getInput();
             //Divisors divide = new Divisors();
@@ -61,8 +61,8 @@ namespace C_Learning
             //secondlarge.getInput();
             //Digitcheck digit = new Digitcheck();
             //digit.getInput();
-            EventCounter eventcount = new EventCounter();
-            eventcount.Run();
+            //EventCounter eventcount = new EventCounter();
+            //eventcount.Run();
         }
 
 
