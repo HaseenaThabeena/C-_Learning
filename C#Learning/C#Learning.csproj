@@ -44,14 +44,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Age.cs" />
+    <Compile Include="Arraysort.cs" />
     <Compile Include="Array_Dup.cs" />
+    <Compile Include="BaseClass.cs" />
     <Compile Include="Calculator.cs" />
     <Compile Include="Circlecircum.cs" />
     <Compile Include="Comparsion.cs" />
     <Compile Include="Constructor.cs" />
     <Compile Include="CountNegatives.cs" />
+    <Compile Include="DerivedClass.cs" />
     <Compile Include="Digitcheck.cs" />
     <Compile Include="Divisors.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Even.cs" />
     <Compile Include="EventCounter.cs" />
     <Compile Include="Factorial.cs" />
@@ -60,6 +64,7 @@
     <Compile Include="Largest3.cs" />
     <Compile Include="MinMax.cs" />
     <Compile Include="Palindrome.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Prime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -10,15 +10,21 @@ namespace C_Learning
     {
         public string name;
         public int j;
-        public Constructor()
+        public Constructor() // Parameter Less Constructor
         {
             Console.WriteLine("Constructor called");
-            Console.ReadKey();
+            
         }
-        public Constructor(string n, int i)
+        public Constructor(string n, int i) // Constructor Overloading | Parameterized Constructor
         {
             this.name = n;
             this.j = i;
+            Console.WriteLine(name + j);
+        }
+        public Constructor(Constructor cons1)
+        {
+            name = cons1.name;
+            Console.WriteLine("Copy constructor" + name);
             Console.ReadKey();
         }
     }

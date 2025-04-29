@@ -38,6 +38,7 @@ namespace C_Learning
             //temp.getInput();
             //Constructor cons = new Constructor();
             //Constructor cons1 = new Constructor("ans",2);
+            //Constructor cons2 = new Constructor(cons1);
             //Console.WriteLine("name" + cons1.name, "j " + cons1.j);
             //Table7 tab7 = new Table7();
             //tab7.getInput();
@@ -51,8 +52,8 @@ namespace C_Learning
             //even_num.even();
             //Vowels vow = new Vowels();
             //vow.getInput();
-            Stringalignement stralign = new Stringalignement();
-            stralign.getInput();
+            //Stringalignement stralign = new Stringalignement();
+            //stralign.getInput();
             //CountNegatives count_neg = new CountNegatives();
             //count_neg.getInput();
             //Divisors divide = new Divisors();
@@ -63,6 +64,12 @@ namespace C_Learning
             //digit.getInput();
             //EventCounter eventcount = new EventCounter();
             //eventcount.Run();
+            //Arraysort arrsort = new Arraysort();
+            //arrsort.sortarray();
+            BaseClass base_class = new BaseClass();
+            base_class.getinput();
+            base_class = new DerivedClass();
+            base_class.getinput();
         }
 
 
