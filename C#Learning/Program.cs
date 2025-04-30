@@ -66,10 +66,12 @@ namespace C_Learning
             //eventcount.Run();
             //Arraysort arrsort = new Arraysort();
             //arrsort.sortarray();
-            BaseClass base_class = new BaseClass();
-            base_class.getinput();
-            base_class = new DerivedClass();
-            base_class.getinput();
+            //BaseClass base_class = new BaseClass();
+            //base_class.getinput();
+            //base_class = new DerivedClass();
+            //base_class.getinput();
+            Numberguess numgame = new Numberguess();
+            numgame.numbergame();
         }
 
 

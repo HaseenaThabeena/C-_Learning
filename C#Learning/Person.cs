@@ -19,6 +19,7 @@ namespace C_Learning
         public void DisplayInfo()
         {
             Console.WriteLine($"Person name :{0} ", name);
+
         }
     }
 }
