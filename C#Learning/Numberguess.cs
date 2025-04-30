@@ -44,22 +44,11 @@ namespace C_Learning
                 {
                     Console.Write("*");                    
                 }
-                // getInput();
+               
                 Console.ReadKey();
             }   
 
-            //Console.WriteLine("\nDo You want to continue : \n 1.Yes \n 2.No");
-            //int a = Convert.ToInt32(Console.ReadLine());
-            //if (a == 1)
-            //{
-            //    getInput();
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Thank you");
-            //    return;
-            //}
-            //Console.ReadKey();
+            
         }
 
     }
