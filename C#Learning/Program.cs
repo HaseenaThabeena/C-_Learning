@@ -71,12 +71,8 @@ namespace C_Learning
             //base_class = new DerivedClass();
             //base_class.getinput();
             Numberguess numgame = new Numberguess();
-            numgame.numbergame();
+            //numgame.randaom_num();
+            numgame.getInput();
         }
-
-
-
     }
-    
-   
-}
+}  

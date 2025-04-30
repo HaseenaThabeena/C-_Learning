@@ -8,30 +8,59 @@ namespace C_Learning
 {
     internal class Numberguess
     {
-        int  random_num;
+        string  randomnum;
         Random r = new Random();
         int num;
+        string num1;
         public void randaom_num()
         {
             num = r.Next(0000,9999);
-            Console.WriteLine(num);
-
-            Console.ReadKey();
+            num1 = Convert.ToString(num);
+            num1.Split(' ');
+            Console.WriteLine(num1);
         }
         public void getInput()
         {
+            randaom_num();
             Console.WriteLine("Enter 4 digit number");
-            random_num = Convert.ToInt32(Console.ReadLine());
+            randomnum = Console.ReadLine();
+            randomnum.Split(' ');
+            numbergame();
         }
         public void numbergame()
         {
-            for(int i=0; i < 4; i++)
+            for (int i = 0; i < num1.Length; i++)
             {
-                //if (num == randaom_num)
-                //{
+                if (num1[i] == randomnum[i])
+                {
+                    Console.Write("+");
+                    return;
+                }
+                else if (num1.Contains(randomnum[i]))
+                {
+                    Console.Write("-");                   
+                }                                
+                else
+                {
+                    Console.Write("*");                    
+                }
+                // getInput();
+                Console.ReadKey();
+            }   
 
-                //}
-            }
+            //Console.WriteLine("\nDo You want to continue : \n 1.Yes \n 2.No");
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //if (a == 1)
+            //{
+            //    getInput();
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Thank you");
+            //    return;
+            //}
+            //Console.ReadKey();
         }
+
     }
 }
