@@ -77,8 +77,10 @@ namespace C_Learning
             //sumtwo.getInput();
             //Length len = new Length();
             //len.getInput();
-            SingleNumber sinnum = new SingleNumber();
-            sinnum.getInput();
+            //SingleNumber sinnum = new SingleNumber();
+            //sinnum.getInput();
+            Class1 cla = new Class1 ();
+            cla.arrayfunc();
         }
     }
 }  

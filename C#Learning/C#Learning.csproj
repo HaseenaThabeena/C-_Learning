@@ -49,6 +49,7 @@
     <Compile Include="BaseClass.cs" />
     <Compile Include="Calculator.cs" />
     <Compile Include="Circlecircum.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Comparsion.cs" />
     <Compile Include="Constructor.cs" />
     <Compile Include="CountNegatives.cs" />

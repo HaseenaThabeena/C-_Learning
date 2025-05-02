@@ -18,7 +18,7 @@ namespace C_Learning
         {
             string[] words = s.Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             int length = words[words.Length - 1].Length;
-            Console.WriteLine($"Length of last word: {length}\n");
+            Console.WriteLine($"Length of last word: {length}");
             Console.ReadKey();
         }
     }
