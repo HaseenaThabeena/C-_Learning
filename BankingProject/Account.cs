@@ -8,19 +8,38 @@ namespace BankingProject
 {
     internal class Account
     {
-        int account_number;
-        double balance;
-        string account_holder;
-        public void deposit()
+        private string accountNumber;
+        private string accountHolder;
+        protected double balance;
+
+        public Account(string number, string holder, double initialBalance)
         {
-            Console.WriteLine("Enter the Deposit amount");
-            double deposit = Convert.ToDouble(Console.ReadLine());
-            balance = deposit + balance;
+            accountNumber = number;
+            accountHolder = holder;
+            balance = initialBalance;
         }
-        public void withdraw()
+
+        public virtual void Deposit(double amount)
         {
-            Console.WriteLine("Enter the Withdraw amount");
-            double withdraw = Convert.ToDouble(Console.ReadLine());
+            if (amount > 0)
+                balance += amount;
+        }
+
+        public virtual void Withdraw(double amount)
+        {
+            if (amount > 0 && amount <= balance)
+                balance -= amount;
+            else
+                Console.WriteLine("Insufficient balance or invalid amount.");
+            Console.ReadKey();
+
+        }
+
+        public virtual void DisplayAccountInfo()
+        {
+            Console.WriteLine($"Account: {accountNumber}, Holder: {accountHolder}, Balance: {balance:C}");
+            Console.ReadKey();
+
         }
     }
 }
