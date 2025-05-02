@@ -70,9 +70,15 @@ namespace C_Learning
             //base_class.getinput();
             //base_class = new DerivedClass();
             //base_class.getinput();
-            Numberguess numgame = new Numberguess();
+            //Numberguess numgame = new Numberguess();
             //numgame.randaom_num();
-            numgame.getInput();
+            //numgame.getInput();
+            //TwoSum sumtwo = new TwoSum();
+            //sumtwo.getInput();
+            //Length len = new Length();
+            //len.getInput();
+            SingleNumber sinnum = new SingleNumber();
+            sinnum.getInput();
         }
     }
 }  
