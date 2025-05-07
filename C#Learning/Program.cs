@@ -79,8 +79,13 @@ namespace C_Learning
             //len.getInput();
             //SingleNumber sinnum = new SingleNumber();
             //sinnum.getInput();
-            Class1 cla = new Class1 ();
-            cla.arrayfunc();
+            //Class1 cla = new Class1 ();
+            //cla.arrayfunc();
+            //MaxProduct max = new MaxProduct();
+            //max.Maxproduct();
+            Roman roman = new Roman();
+            roman.RomanToInt("IV");
+            Console.ReadKey();
         }
     }
 }  
