@@ -83,9 +83,12 @@ namespace C_Learning
             //cla.arrayfunc();
             //MaxProduct max = new MaxProduct();
             //max.Maxproduct();
-            Roman roman = new Roman();
-            roman.RomanToInt("IV");
-            Console.ReadKey();
+            //Roman roman = new Roman();
+            //Console.WriteLine(roman.RomanToInt("IV")); ;
+            //Console.ReadKey();
+            Missingnum missnum = new Missingnum();
+            int[] nums = { 2, 1, 4 };
+            missnum.MissingNumber(nums);
         }
     }
 }  

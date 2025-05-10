@@ -10,31 +10,33 @@ namespace C_Learning
     {
         public int RomanToInt(string s)
         {
-            int value = 0;
-            Dictionary<string, int> dic = new Dictionary<string, int>() {
-                { "I", 1 },
-                { "V", 5 },
-                { "X", 10 },
-                { "L", 50 },
-                { "C", 100 },
-                { "D", 500 },
-                { "M", 1000 },
-                };
-            for(int i = 0; i < dic.Count; i++)
+            int total = 0;
+            int prevValue = 0;
+            Dictionary<char, int> dic = new Dictionary<char, int>() 
             {
-                //if(dic.ContainsKey()
-                //{
-                //    Console.WriteLine("IV");
-                //}
-                //else if (dic.ContainsValue(9))
-                //{
-                //    Console.WriteLine("IX");
-                //}
+                { 'I', 1 },
+                { 'V', 5 },
+                { 'X', 10 },
+                { 'L', 50 },
+                { 'C', 100 },
+                { 'D', 500 },
+                { 'M', 1000 },
+            };
+            foreach (char c in s)
+            {
+             int currentValue = dic[c];
+                if (prevValue < currentValue)
+                {
+                   total += currentValue - 2 * prevValue;
+                }
+                else
+                {
+                   total += currentValue;
+                }
+                   prevValue = currentValue;              
             }
-
-            return value;
-         
+            
+            return total;            
         }
-
     }
 }
