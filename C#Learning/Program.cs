@@ -83,9 +83,11 @@ namespace C_Learning
             //cla.arrayfunc();
             //MaxProduct max = new MaxProduct();
             //max.Maxproduct();
-            Roman roman = new Roman();
-            roman.RomanToInt("IV");
-            Console.ReadKey();
+            //Roman roman = new Roman();
+            //roman.RomanToInt("IV");
+            //Console.ReadKey();
+            StudentGrade studentG = new StudentGrade();
+            studentG.totalstudent();
         }
     }
 }  

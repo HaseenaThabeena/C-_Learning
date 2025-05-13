@@ -78,6 +78,7 @@
     <Compile Include="SingleNumber.cs" />
     <Compile Include="SquarePattern.cs" />
     <Compile Include="Stringalignement.cs" />
+    <Compile Include="StudentGrade.cs" />
     <Compile Include="Table7.cs" />
     <Compile Include="Temp.cs" />
     <Compile Include="TwoSum.cs" />
