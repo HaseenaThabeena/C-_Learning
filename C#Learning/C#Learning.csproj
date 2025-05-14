@@ -69,6 +69,7 @@
     <Compile Include="Numberguess.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="Person.cs" />
+    <Compile Include="Plotvalue.cs" />
     <Compile Include="Prime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="Table7.cs" />
     <Compile Include="Temp.cs" />
     <Compile Include="TwoSum.cs" />
+    <Compile Include="ValueofPlot.cs" />
     <Compile Include="Vowels.cs" />
   </ItemGroup>
   <ItemGroup>
