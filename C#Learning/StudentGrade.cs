@@ -47,7 +47,7 @@ namespace C_Learning
 
             average /= students.Count;
 
-            Console.WriteLine($"\nAverage Grade: {average:F2}");
+            Console.WriteLine($"\nAverage Grade: {average}");
             Console.ReadKey();
         }
     }
