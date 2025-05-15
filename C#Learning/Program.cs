@@ -86,8 +86,11 @@ namespace C_Learning
             //Roman roman = new Roman();
             //roman.RomanToInt("IV");
             //Console.ReadKey();
-            StudentGrade studentG = new StudentGrade();
-            studentG.totalstudent();
+            //StudentGrade studentG = new StudentGrade();
+            //studentG.totalstudent();
+            Enum_val e = new Enum_val();
+            e.showday();
+            
         }
     }
 }  

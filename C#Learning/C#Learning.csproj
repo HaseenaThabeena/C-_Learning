@@ -57,6 +57,7 @@
     <Compile Include="Digitcheck.cs" />
     <Compile Include="Divisors.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="Enum_val.cs" />
     <Compile Include="Even.cs" />
     <Compile Include="EventCounter.cs" />
     <Compile Include="Factorial.cs" />
@@ -69,7 +70,6 @@
     <Compile Include="Numberguess.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="Person.cs" />
-    <Compile Include="Plotvalue.cs" />
     <Compile Include="Prime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,7 +83,6 @@
     <Compile Include="Table7.cs" />
     <Compile Include="Temp.cs" />
     <Compile Include="TwoSum.cs" />
-    <Compile Include="ValueofPlot.cs" />
     <Compile Include="Vowels.cs" />
   </ItemGroup>
   <ItemGroup>
