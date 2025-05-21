@@ -34,7 +34,7 @@ namespace C_Learning
                 if (num1[i] == randomnum[i])
                 {
                     Console.Write("+");
-                    return;
+                    //return;
                 }
                 else if (num1.Contains(randomnum[i]))
                 {
@@ -43,12 +43,9 @@ namespace C_Learning
                 else
                 {
                     Console.Write("*");                    
-                }
-               
-                Console.ReadKey();
-            }   
-
-            
+                }            
+            }
+            Console.ReadKey();
         }
 
     }

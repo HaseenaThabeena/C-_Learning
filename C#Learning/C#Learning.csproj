@@ -64,12 +64,14 @@
     <Compile Include="Frequent.cs" />
     <Compile Include="Fruit.cs" />
     <Compile Include="Largest3.cs" />
+    <Compile Include="largest_1.cs" />
     <Compile Include="Length.cs" />
     <Compile Include="MaxProduct.cs" />
     <Compile Include="MinMax.cs" />
     <Compile Include="Numberguess.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="Person.cs" />
+    <Compile Include="PostiveNegative_2.cs" />
     <Compile Include="Prime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

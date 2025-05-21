@@ -88,9 +88,19 @@ namespace C_Learning
             //Console.ReadKey();
             //StudentGrade studentG = new StudentGrade();
             //studentG.totalstudent();
-            Enum_val e = new Enum_val();
-            e.showday();
+            //Enum_val e = new Enum_val();
+            //e.showday();
             
+            
+            //Task Test
+
+            //Largest Value
+            //largest_1 lar = new largest_1();
+            //lar.largestvalue();
+            //Count Neg and Positive 
+            PostiveNegative_2 pos = new PostiveNegative_2();
+            pos.countvalue();
+
         }
     }
 }  
