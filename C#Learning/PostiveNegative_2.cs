@@ -13,7 +13,7 @@ namespace C_Learning
         int count = 0;
         public void countvalue()
         {
-            for (int i = 0; i <= listvalue.Count; i++)
+            for (int i = 0; i < listvalue.Count; i++)
             {
                 if (listvalue[i] < 0)
                 {

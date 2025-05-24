@@ -90,16 +90,22 @@ namespace C_Learning
             //studentG.totalstudent();
             //Enum_val e = new Enum_val();
             //e.showday();
-            
-            
+
+
             //Task Test
 
             //Largest Value
             //largest_1 lar = new largest_1();
             //lar.largestvalue();
             //Count Neg and Positive 
-            PostiveNegative_2 pos = new PostiveNegative_2();
-            pos.countvalue();
+            //PostiveNegative_2 pos = new PostiveNegative_2();
+            //pos.countvalue();
+            //Sum_even_odd_3 sum = new Sum_even_odd_3();
+            //sum.odd_even();
+            //Specific_Number_4 num = new Specific_Number_4();
+            //num.input();
+            Multiply_Array_Elements_by_3 mul = new Multiply_Array_Elements_by_3();
+            mul.multiply();
 
         }
     }
