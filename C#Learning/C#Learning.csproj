@@ -68,7 +68,7 @@
     <Compile Include="Length.cs" />
     <Compile Include="MaxProduct.cs" />
     <Compile Include="MinMax.cs" />
-    <Compile Include="Multiply_Array_Elements_by_3.cs" />
+    <Compile Include="Multiply_Array_Elements_by3_5.cs" />
     <Compile Include="Numberguess.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="Person.cs" />

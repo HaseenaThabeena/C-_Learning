@@ -104,7 +104,7 @@ namespace C_Learning
             //sum.odd_even();
             //Specific_Number_4 num = new Specific_Number_4();
             //num.input();
-            Multiply_Array_Elements_by_3 mul = new Multiply_Array_Elements_by_3();
+            Multiply_Array_Elements_by3_5 mul = new Multiply_Array_Elements_by3_5();
             mul.multiply();
 
         }
