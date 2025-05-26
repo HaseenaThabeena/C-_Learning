@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DocumentFormat.OpenXml.Drawing;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -91,7 +92,6 @@ namespace C_Learning
             //Enum_val e = new Enum_val();
             //e.showday();
 
-
             //Task Test
 
             //Largest Value
@@ -104,9 +104,15 @@ namespace C_Learning
             //sum.odd_even();
             //Specific_Number_4 num = new Specific_Number_4();
             //num.input();
-            Multiply_Array_Elements_by3_5 mul = new Multiply_Array_Elements_by3_5();
-            mul.multiply();
+            //Multiply_Array_Elements_by3_5 mul = new Multiply_Array_Elements_by3_5();
+            //mul.multiply();
+            Rectangle r = new Rectangle(20, 15);
+            double a = r.area();
+            Console.WriteLine("Area: {0}", a);
+            Console.ReadKey();
 
         }
     }
+
+    
 }  
