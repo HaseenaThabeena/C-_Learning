@@ -79,7 +79,6 @@
     <Compile Include="Numberguess.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="Person.cs" />
-    <Compile Include="PostiveNegative_2.cs" />
     <Compile Include="Prime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,11 +86,9 @@
     <Compile Include="Roman.cs" />
     <Compile Include="SecLarge.cs" />
     <Compile Include="SingleNumber.cs" />
-    <Compile Include="Specific_Number_4.cs" />
     <Compile Include="SquarePattern.cs" />
     <Compile Include="Stringalignement.cs" />
     <Compile Include="StudentGrade.cs" />
-    <Compile Include="Sum_even_odd_3.cs" />
     <Compile Include="Table7.cs" />
     <Compile Include="Temp.cs" />
     <Compile Include="TwoSum.cs" />

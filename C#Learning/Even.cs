@@ -8,7 +8,7 @@ namespace C_Learning
 {
     internal class Even
     {
-        int i;
+      
         public void even()
         {
             Console.WriteLine("****** 1 to 100 Even Numbers *******");
