@@ -207,7 +207,76 @@ namespace C_Learning
             }
             Console.WriteLine();
         }
-    }
 
+        // 47. Count Negative Numbers in a List
+        public void CountNegativeNumbers(List<int> list)
+        {
+            int negativeCount = 0;
+            foreach (int num in list)
+            {
+                if (num < 0)
+                {
+                    negativeCount++;
+                }
+            }
+            Console.WriteLine($"Number of negative numbers in the list: {negativeCount}");
+        }
+
+        // 48. Find All Divisors of a Number
+        public void FindDivisors(int number)
+        {
+            Console.WriteLine($"Divisors of {number}:");
+            for (int i = 1; i <= number; i++)
+            {
+                if (number % i == 0)
+                {
+                    Console.Write(i + " ");
+                }
+            }
+            Console.WriteLine();
+        }
+
+        // 49. Find the Second Smallest Element in a List
+        public void FindSecondSmallest(List<int> list)
+        {
+            int smallest = int.MaxValue;
+            int secondSmallest = int.MaxValue;
+
+            foreach (int num in list)
+            {
+                if (num < smallest)
+                {
+                    secondSmallest = smallest;
+                    smallest = num;
+                }
+                else if (num < secondSmallest && num != smallest)
+                {
+                    secondSmallest = num;
+                }
+            }
+            Console.WriteLine($"The second smallest number in the list is: {secondSmallest}");
+        }
+
+        // 52. Remove Duplicates from a Sorted List
+        public void RemoveDuplicates(List<int> list)
+        {
+            List<int> uniqueList = new List<int>();
+
+            foreach (int num in list)
+            {
+                if (!uniqueList.Contains(num))
+                {
+                    uniqueList.Add(num);
+                }
+            }
+
+            Console.WriteLine("List after removing duplicates:");
+            foreach (int num in uniqueList)
+            {
+                Console.Write(num + " ");
+            }
+            Console.WriteLine();
+        }
+    }
 }
 

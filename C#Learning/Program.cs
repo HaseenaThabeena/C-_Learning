@@ -98,10 +98,10 @@ namespace C_Learning
 
 
             //Task Test
-                   
 
-            List<int> list = new List<int> { 12, -3, 7, 0, -2, 5, 18, -8, -1, 0, 3, 20, 9, 4 };
-                       
+
+            List<int> list = new List<int> { 12, -3, 7, 0, -2, 5, 18, -8, -1, 0, 3, 20, 9, 4, 7, 5 };
+
             List_2 operations = new List_2();
                        
 
@@ -161,6 +161,26 @@ namespace C_Learning
 
             // 33. Replace Negative Numbers with Zero
             operations.ReplaceNegativeWithZero(list);
+
+            // 47. Count Negative Numbers in a List
+            operations.CountNegativeNumbers(list);
+            Console.WriteLine();
+
+            // 48. Find All Divisors of a Number
+            Console.Write("Enter a number to find its divisors: ");
+            int divisorNum = int.Parse(Console.ReadLine());
+            operations.FindDivisors(divisorNum);
+            Console.WriteLine();
+            Console.ReadKey();
+
+            // 49. Find the Second Smallest Element in a List
+            operations.FindSecondSmallest(list);
+            Console.WriteLine();
+
+            // 52. Remove Duplicates from Sorted List
+            operations.RemoveDuplicates(list);
+            Console.ReadKey();
+
         }
     }
 
