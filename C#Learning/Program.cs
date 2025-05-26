@@ -98,25 +98,69 @@ namespace C_Learning
 
 
             //Task Test
+                   
 
-            //Largest Value
-            //largest_1 lar = new largest_1();
-            //lar.largestvalue();
+            List<int> list = new List<int> { 12, -3, 7, 0, -2, 5, 18, -8, -1, 0, 3, 20, 9, 4 };
+                       
+            List_2 operations = new List_2();
+                       
 
-            //Count Neg and Positive 
-            //PostiveNegative_2 pos = new PostiveNegative_2();
-            //pos.countvalue();
+            // 20. Find the Largest Number in a List
+            operations.FindLargest(list);
+            Console.WriteLine();
 
-            //Sum_even_odd_3 sum = new Sum_even_odd_3();
-            //sum.odd_even();
+            // 21. Count Positive and Negative Numbers
+            operations.CountPositiveNegative(list);
+            Console.WriteLine();
 
-            //Specific_Number_4 num = new Specific_Number_4();
-            //num.input();
+            // 22. Sum of Even and Odd Numbers
+            operations.SumEvenOdd(list);
+            Console.WriteLine();
 
-            //Multiply_Array_Elements_by3_5 mul = new Multiply_Array_Elements_by3_5();
-            //mul.multiply();
+            // 23. Check If List Contains a Specific Number
+            Console.Write("Enter a number to check if it exists in the list: ");
+            int number = int.Parse(Console.ReadLine());
+            operations.CheckIfContains(list, number);
+            Console.WriteLine();
 
+            // 24. Multiply List Elements by 3
+            operations.MultiplyByThree(list);
+            Console.WriteLine();
 
+            // 25. Even or Odd Number Checker
+            operations.CheckEvenOdd(list);
+            Console.WriteLine();
+
+            // 26. Average of List Elements
+            operations.CalculateAverage(list);
+            Console.WriteLine();
+
+            // 27. Find the Smallest Number in a List
+            operations.FindSmallest(list);
+            Console.WriteLine();
+
+            // 28. Reverse a List
+            operations.ReverseList(list);
+            Console.WriteLine();
+
+            // 29. Count the Number of Zeros in a List
+            operations.CountZeros(list);
+            Console.WriteLine();
+
+            // 30. Calculate the Product of All List Elements
+            operations.CalculateProduct(list);
+            Console.WriteLine();
+
+            // 31. Find the Second Largest Number in a List
+            operations.FindSecondLargest(list);
+            Console.WriteLine();
+
+            // 32. Print Only the Positive Numbers
+            operations.PrintPositiveNumbers(list);
+            Console.WriteLine();
+
+            // 33. Replace Negative Numbers with Zero
+            operations.ReplaceNegativeWithZero(list);
         }
     }
 

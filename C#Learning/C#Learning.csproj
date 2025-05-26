@@ -73,6 +73,7 @@
     <Compile Include="Largest3.cs" />
     <Compile Include="largest_1.cs" />
     <Compile Include="Length.cs" />
+    <Compile Include="List_2.cs" />
     <Compile Include="MaxProduct.cs" />
     <Compile Include="MinMax.cs" />
     <Compile Include="Multiply_Array_Elements_by3_5.cs" />
