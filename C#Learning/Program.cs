@@ -93,6 +93,54 @@ namespace C_Learning
             //missnum.MissingNumber(nums);
 
 
+            List<int> list = new List<int> { 12, -3, 7, 0, -2, 5, 18, -8, -1, 0, 3, 20, 9, 4, 7, 5 };
+
+            List_2 operations = new List_2();
+
+            operations.FindLargest(list);
+           
+            operations.CountPositiveNegative(list);
+           
+
+            operations.SumEvenOdd(list);
+          
+
+            Console.Write("Enter a number to check if it exists in the list: ");
+            int number = int.Parse(Console.ReadLine());
+            operations.CheckIfContains(list, number);
+            
+            operations.MultiplyByThree(list);
+            
+            operations.CheckEvenOdd(list);
+            
+            operations.CalculateAverage(list);
+                       
+            operations.FindSmallest(list);
+                      
+            operations.ReverseList(list);
+          
+            operations.CountZeros(list);
+           
+            operations.CalculateProduct(list);
+          
+            operations.FindSecondLargest(list);
+
+            operations.PrintPositiveNumbers(list);
+            
+            operations.ReplaceNegativeWithZero(list);
+
+            operations.CountNegativeNumbers(list);
+           
+            Console.Write("Enter a number to find its divisors: ");
+            int divisorNum = int.Parse(Console.ReadLine());
+            operations.FindDivisors(divisorNum);
+            Console.ReadKey();
+
+            operations.FindSecondSmallest(list);
+            
+            operations.RemoveDuplicates(list);
+            Console.ReadKey();
+
 
             Task2_class qs = new Task2_class();
             qs.ConvertStringToTypes();
@@ -119,7 +167,7 @@ namespace C_Learning
             Console.ReadKey();
             Console.WriteLine("Length of last word in 'Hello World': " + qs.LengthOfLastWord("Hello World"));
             Console.ReadKey();
-            Console.WriteLine("Contains duplicates: " + qs.ContainsDuplicate(new List<int> { 1, 2, 3, 4, 1 }));
+            Console.WriteLine("Contains duplicates: " + qs.ContainsDuplicate(list));
             Console.ReadKey();
 
             ArrayList list1 = new ArrayList() { 1, 2, 3 };
@@ -131,19 +179,19 @@ namespace C_Learning
             ArrayList mixed = new ArrayList() { 1, "hello", 'a', 2, "world", 'b' };
             qs.GroupElementsByType(mixed);
 
-            var manager = new Student.StudentManager();
-            manager.AddStudent("Alice", new List<int> { 85, 90, 78 });
-            manager.AddStudent("Bob", new List<int> { 92, 88, 95 });
-            manager.ShowAverageGrades();
-            manager.ShowTopStudents();
+            //var manager = new Student.StudentManager();
+            //manager.AddStudent("Alice", new List<int> { 85, 90, 78 });
+            //manager.AddStudent("Bob", new List<int> { 92, 88, 95 });
+            //manager.ShowAverageGrades();
+            //manager.ShowTopStudents();
             Console.WriteLine("Traffic Light Action: " + qs.GetTrafficSignalAction(Task2_class.TrafficLight.Red));
             Console.WriteLine("Weather Suggestion: " + qs.GetWeatherSuggestion(Task2_class.WeatherType.Snowy));
             Console.WriteLine("Ticket Price (Senior): $" + qs.GetMovieTicketPrice(Task2_class.AgeGroup.Senior));
             
             ArrayList freqList = new ArrayList() { "apple", "banana", "apple", "orange", "banana", "apple" };
             qs.CountElementFrequency(freqList);
-            List<int> nums = new List<int> { -1, 5, 8, -3, 12 };
-            Console.WriteLine("Average of positives: " + qs.AverageOfPositiveNumbers(nums));
+            
+            Console.WriteLine("Average of positives: " + qs.AverageOfPositiveNumbers(list));
         }
     }
 }  

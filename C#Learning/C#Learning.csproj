@@ -64,6 +64,7 @@
     <Compile Include="Fruit.cs" />
     <Compile Include="Largest3.cs" />
     <Compile Include="Length.cs" />
+    <Compile Include="List_2.cs" />
     <Compile Include="MaxProduct.cs" />
     <Compile Include="MinMax.cs" />
     <Compile Include="Missingnum.cs" />
