@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using static C_Learning.Task2_class;
 
 namespace C_Learning
 {
@@ -86,9 +88,76 @@ namespace C_Learning
             //Roman roman = new Roman();
             //Console.WriteLine(roman.RomanToInt("IV")); ;
             //Console.ReadKey();
-            Missingnum missnum = new Missingnum();
-            int[] nums = { 2, 1, 4 };
-            missnum.MissingNumber(nums);
+            //Missingnum missnum = new Missingnum();
+            //int[] nums = { 2, 1, 4 };
+            //missnum.MissingNumber(nums);
+
+
+
+            Task2_class qs = new Task2_class();
+            qs.ConvertStringToTypes();
+            qs.CalculateCircleCircumference();
+            qs.SimpleCalculator();
+            qs.DemonstrateCompoundOperators();
+            qs.PrintAgeCategory();
+            qs.CheckTemperatureType();
+            qs.PrintMultiplicationTable(7);
+            Console.WriteLine("Is 7 prime? " + qs.IsPrime(7));
+            Console.ReadKey();
+            Console.WriteLine("Reverse of 'hello': " + qs.ReverseString("hello"));
+            Console.ReadKey();
+            Console.WriteLine("Largest of (3, 9, 5): " + qs.FindLargestOfThree(3, 9, 5));
+            Console.ReadKey();
+            qs.PrintEvenNumbers1To100();
+            qs.CountVowelsAndConsonants("This is a sample sentence.");
+            Console.ReadKey();
+            Console.WriteLine("Is 'madam' a palindrome? " + qs.IsPalindrome("madam"));
+            Console.ReadKey();
+            Console.WriteLine("Even numbers between 2 and 10: " + qs.CountEvenNumbersInRange(2, 10));
+            Console.ReadKey();
+            Console.WriteLine("Index of 'sad' in 'sadbutsad': " + qs.IndexOfFirstOccurrence("sadbutsad", "sad"));
+            Console.ReadKey();
+            Console.WriteLine("Length of last word in 'Hello World': " + qs.LengthOfLastWord("Hello World"));
+            Console.ReadKey();
+            Console.WriteLine("Contains duplicates: " + qs.ContainsDuplicate(new List<int> { 1, 2, 3, 4, 1 }));
+            Console.ReadKey();
+
+            ArrayList list1 = new ArrayList() { 1, 2, 3 };
+            ArrayList list2 = new ArrayList() { 3, 4, 5 };
+            var merged = qs.MergeArrayListsWithoutDuplicates(list1, list2);
+            Console.WriteLine("Merged List: " + string.Join(", ", merged.ToArray()));
+
+            // Problem 57
+            ArrayList palindromeList = new ArrayList() { 'r', 'a', 'c', 'e', 'c', 'a', 'r' };
+            Console.WriteLine("Is Palindrome: " + qs.IsArrayListPalindrome(palindromeList));
+
+            // Problem 58
+            ArrayList mixed = new ArrayList() { 1, "hello", 'a', 2, "world", 'b' };
+            qs.GroupElementsByType(mixed);
+
+            // Problem 59 - Student Manager
+            var manager = new Student.StudentManager();
+            manager.AddStudent("Alice", new List<int> { 85, 90, 78 });
+            manager.AddStudent("Bob", new List<int> { 92, 88, 95 });
+            manager.ShowAverageGrades();
+            manager.ShowTopStudents();
+
+            // Problem 60
+            Console.WriteLine("Traffic Light Action: " + qs.GetTrafficSignalAction(Task2_class.TrafficLight.Red));
+
+            // Problem 61
+            Console.WriteLine("Weather Suggestion: " + qs.GetWeatherSuggestion(Task2_class.WeatherType.Snowy));
+
+            // Problem 62
+            Console.WriteLine("Ticket Price (Senior): $" + qs.GetMovieTicketPrice(Task2_class.AgeGroup.Senior));
+
+            // Problem 63
+            ArrayList freqList = new ArrayList() { "apple", "banana", "apple", "orange", "banana", "apple" };
+            qs.CountElementFrequency(freqList);
+
+            // Problem 64
+            List<int> nums = new List<int> { -1, 5, 8, -3, 12 };
+            Console.WriteLine("Average of positives: " + qs.AverageOfPositiveNumbers(nums));
         }
     }
 }  
