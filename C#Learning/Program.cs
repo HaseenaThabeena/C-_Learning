@@ -126,36 +126,22 @@ namespace C_Learning
             ArrayList list2 = new ArrayList() { 3, 4, 5 };
             var merged = qs.MergeArrayListsWithoutDuplicates(list1, list2);
             Console.WriteLine("Merged List: " + string.Join(", ", merged.ToArray()));
-
-            // Problem 57
             ArrayList palindromeList = new ArrayList() { 'r', 'a', 'c', 'e', 'c', 'a', 'r' };
             Console.WriteLine("Is Palindrome: " + qs.IsArrayListPalindrome(palindromeList));
-
-            // Problem 58
             ArrayList mixed = new ArrayList() { 1, "hello", 'a', 2, "world", 'b' };
             qs.GroupElementsByType(mixed);
 
-            // Problem 59 - Student Manager
             var manager = new Student.StudentManager();
             manager.AddStudent("Alice", new List<int> { 85, 90, 78 });
             manager.AddStudent("Bob", new List<int> { 92, 88, 95 });
             manager.ShowAverageGrades();
             manager.ShowTopStudents();
-
-            // Problem 60
             Console.WriteLine("Traffic Light Action: " + qs.GetTrafficSignalAction(Task2_class.TrafficLight.Red));
-
-            // Problem 61
             Console.WriteLine("Weather Suggestion: " + qs.GetWeatherSuggestion(Task2_class.WeatherType.Snowy));
-
-            // Problem 62
             Console.WriteLine("Ticket Price (Senior): $" + qs.GetMovieTicketPrice(Task2_class.AgeGroup.Senior));
-
-            // Problem 63
+            
             ArrayList freqList = new ArrayList() { "apple", "banana", "apple", "orange", "banana", "apple" };
             qs.CountElementFrequency(freqList);
-
-            // Problem 64
             List<int> nums = new List<int> { -1, 5, 8, -3, 12 };
             Console.WriteLine("Average of positives: " + qs.AverageOfPositiveNumbers(nums));
         }
