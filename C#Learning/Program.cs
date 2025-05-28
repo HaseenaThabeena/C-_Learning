@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using static C_Learning.Task2_class;
 
 namespace C_Learning
 {
