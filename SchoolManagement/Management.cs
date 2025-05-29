@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace SchoolManagement
 {
-    public class TeachingStaff : Management
+    public abstract class Management
     {
-        public override void add_Profile()
-        {
-            
-        }
+        public abstract void add_Profile();
+       
+
+
     }
 }

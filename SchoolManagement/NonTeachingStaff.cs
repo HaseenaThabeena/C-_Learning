@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace SchoolManagement
 {
-    internal class NonTeachingStaff
+    public class NonTeachingStaff : Management
     {
+        public override void add_Profile()
+        {
+
+        }
+    
     }
 }
