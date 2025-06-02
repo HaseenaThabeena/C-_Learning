@@ -8,7 +8,7 @@ namespace SchoolManagement
 {
     public abstract class Management
     {
-        public abstract void add_Profile();
+        public abstract void add_Profile(int id,  string name);
        
 
 
