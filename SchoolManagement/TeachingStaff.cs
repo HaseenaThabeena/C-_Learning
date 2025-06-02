@@ -25,7 +25,7 @@ namespace SchoolManagement
 
         public void DisplayAllTeachingStaff()
         {
-            Console.WriteLine("\n--- All Teaching Staff Profiles ---");
+            Console.WriteLine("\n --- All Teaching Staff Profiles ---");
             foreach (var profile in teachingProfiles)
             {
                 Console.WriteLine($"ID: {profile.Key}, Name: {profile.Value}");

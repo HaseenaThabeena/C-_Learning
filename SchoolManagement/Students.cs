@@ -23,7 +23,7 @@ namespace SchoolManagement
         }
         public void DisplayAllStudents()
         {
-            Console.WriteLine("\n--- All Student Profiles ---");
+            Console.WriteLine("\n --- All Student Profiles ---");
             foreach (var profile in Student)
             {
                 Console.WriteLine($"ID: {profile.Key}, Name: {profile.Value}");

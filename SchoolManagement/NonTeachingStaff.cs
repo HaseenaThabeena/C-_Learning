@@ -25,7 +25,7 @@ namespace SchoolManagement
 
         public void DisplayAllNonTeachingStaff()
         {
-            Console.WriteLine("\n--- All Non-Teaching Staff Profiles ---");
+            Console.WriteLine("\n --- All Non-Teaching Staff Profiles ---");
             foreach (var profile in nonTeachingProfiles)
             {
                 Console.WriteLine($"ID: {profile.Key}, Name: {profile.Value}");
