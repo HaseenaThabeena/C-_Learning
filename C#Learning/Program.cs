@@ -92,8 +92,22 @@ namespace C_Learning
             //missnum.MissingNumber(nums);
 
 
-            Exceptione exec = new Exceptione();
-            exec.exe();
+            //Exceptione exec = new Exceptione();
+            //exec.exe();
+
+            SameKey same = new SameKey();
+            same.same1(1, "James");
+            same.same1(2, "Alice Smith");
+            same.same1(3, "ssdddf");
+           // same.displaydict();
+            same.same2(1, "James");
+            same.same2(2, "Alice Smith");
+            same.same2(3, "ddf");
+            // same.displaydict();
+            Console.WriteLine("Dictionaries are equal:" + same.equal(true));
+            same.GetUnmatchedValues();
+
+
 
             //List<int> list = new List<int> { 12, -3, 7, 0, -2, 5, 18, -8, -1, 0, 3, 20, 9, 4, 7, 5 };
 
