@@ -95,17 +95,23 @@ namespace C_Learning
             //Exceptione exec = new Exceptione();
             //exec.exe();
 
-            SameKey same = new SameKey();
-            same.same1(1, "James");
-            same.same1(2, "Alice Smith");
-            same.same1(3, "ssdddf");
-           // same.displaydict();
-            same.same2(1, "James");
-            same.same2(2, "Alice Smith");
-            same.same2(3, "ddf");
-            // same.displaydict();
-            Console.WriteLine("Dictionaries are equal:" + same.equal(true));
-            same.GetUnmatchedValues();
+            // SameKey same = new SameKey();
+            // same.same1(1, "James");
+            // same.same1(2, "Alice Smith");
+            // same.same1(3, "ssdddf");
+            //// same.displaydict();
+            // same.same2(1, "James");
+            // same.same2(2, "Alice Smith");
+            // same.same2(3, "ddf");
+            // // same.displaydict();
+            // Console.WriteLine("Dictionaries are equal:" + same.equal(true));
+            // same.GetUnmatchedValues();
+
+
+            newClass newc = new newClass();
+            //newc.listadd();
+            Console.WriteLine(newc.Predicate());
+            Console.ReadKey();
 
 
 
