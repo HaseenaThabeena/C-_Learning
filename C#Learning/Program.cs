@@ -113,6 +113,17 @@ namespace C_Learning
             Console.WriteLine(newc.Predicate());
             Console.ReadKey();
 
+            var words = new List<string> { "sky", "cup", "new", "war", "wrong",
+    "crypto", "forest", "water", "cup" };
+
+            var vals = new List<int> { -2, -1, 3, 0, 1, 2, 1, 4, -2, 2, 1 };
+
+            string e = words.FindLast(es => es.StartsWith("w"));
+            Console.WriteLine(e);
+
+            int n = vals.FindLast(ea => ea > 0);
+            Console.WriteLine(n);
+            Console.ReadKey();
 
 
             //List<int> list = new List<int> { 12, -3, 7, 0, -2, 5, 18, -8, -1, 0, 3, 20, 9, 4, 7, 5 };

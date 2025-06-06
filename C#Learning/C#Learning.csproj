@@ -70,6 +70,7 @@
     <Compile Include="MinMax.cs" />
     <Compile Include="Missingnum.cs" />
     <Compile Include="newClass.cs" />
+    <Compile Include="NewClass1.cs" />
     <Compile Include="Numberguess.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="Person.cs" />
