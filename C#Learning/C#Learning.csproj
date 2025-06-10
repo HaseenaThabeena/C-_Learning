@@ -59,6 +59,7 @@
     <Compile Include="Employee.cs" />
     <Compile Include="Even.cs" />
     <Compile Include="EventCounter.cs" />
+    <Compile Include="Exception.cs" />
     <Compile Include="Exceptione.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="Frequent.cs" />

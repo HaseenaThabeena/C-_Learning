@@ -108,21 +108,24 @@ namespace C_Learning
             // same.GetUnmatchedValues();
 
 
-            newClass newc = new newClass();
-            //newc.listadd();
-            Console.WriteLine(newc.Predicate());
-            Console.ReadKey();
+    //        newClass newc = new newClass();
+    //        //newc.listadd();
+    //        Console.WriteLine(newc.Predicate());
+    //        Console.ReadKey();
 
-            var words = new List<string> { "sky", "cup", "new", "war", "wrong",
-    "crypto", "forest", "water", "cup" };
+    //        var words = new List<string> { "sky", "cup", "new", "war", "wrong",
+    //"crypto", "forest", "water", "cup" };
 
-            var vals = new List<int> { -2, -1, 3, 0, 1, 2, 1, 4, -2, 2, 1 };
+    //        var vals = new List<int> { -2, -1, 3, 0, 1, 2, 1, 4, -2, 2, 1 };
 
-            string e = words.FindLast(es => es.StartsWith("w"));
-            Console.WriteLine(e);
+    //        string e = words.FindLast(es => es.StartsWith("w"));
+    //        Console.WriteLine(e);
 
-            int n = vals.FindLast(ea => ea > 0);
-            Console.WriteLine(n);
+    //        int n = vals.FindLast(ea => ea > 0);
+    //        Console.WriteLine(n);
+
+            Exception e =new Exception();
+            e.arrayadd();            
             Console.ReadKey();
 
 
