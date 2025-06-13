@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingProject", "BankingPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagement", "SchoolManagement\SchoolManagement.csproj", "{44569159-BBC0-4F25-8DA6-467FE6BCD762}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement", "Employee\EmployeeManagement.csproj", "{22E247DC-EB1B-4FA4-A767-009E442C1E9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement", "Employee\EmployeeManagement.csproj", "{22E247DC-EB1B-4FA4-A767-009E442C1E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assessment", "Assessment\Assessment.csproj", "{5A487944-D7E9-4A9E-9B11-8F5A42461193}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{22E247DC-EB1B-4FA4-A767-009E442C1E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22E247DC-EB1B-4FA4-A767-009E442C1E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22E247DC-EB1B-4FA4-A767-009E442C1E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A487944-D7E9-4A9E-9B11-8F5A42461193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A487944-D7E9-4A9E-9B11-8F5A42461193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A487944-D7E9-4A9E-9B11-8F5A42461193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A487944-D7E9-4A9E-9B11-8F5A42461193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
