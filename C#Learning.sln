@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagement", "SchoolM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assessment", "Assessment\Assessment.csproj", "{0FB0D120-8E57-9187-CBA6-22EC812B93B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement", "Employee\EmployeeManagement.csproj", "{45E1F494-27C9-2ADB-8C9E-E661E306F053}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0FB0D120-8E57-9187-CBA6-22EC812B93B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FB0D120-8E57-9187-CBA6-22EC812B93B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FB0D120-8E57-9187-CBA6-22EC812B93B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E1F494-27C9-2ADB-8C9E-E661E306F053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E1F494-27C9-2ADB-8C9E-E661E306F053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E1F494-27C9-2ADB-8C9E-E661E306F053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E1F494-27C9-2ADB-8C9E-E661E306F053}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
