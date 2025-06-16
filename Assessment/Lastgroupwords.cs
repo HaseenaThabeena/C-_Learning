@@ -16,8 +16,7 @@ namespace Assessment
         {
             Dictionary<char, List<string>> dict = new Dictionary<char, List<string>>();
            foreach(var item in words)
-            //for(int i=0; i <= words.Count; i++)
-            {
+           {
                 char result = item.Last();
                 if (!dict.ContainsKey(result))
                 {
@@ -29,7 +28,7 @@ namespace Assessment
                     li.Add(item);
                     dict[result] = li;
                 }
-            }
+           }
         }
         public void forgrplastword()
         {
@@ -51,6 +50,21 @@ namespace Assessment
             }
         }
 
+        public int [] sortedarray(int[] nums)
+        {
+           for(int i = 0; i < nums.Length; i++)
+            {
+                int a = nums[i] * nums[i];
+                nums[i] = a;
+            }
+            Array.Sort(nums);
+            return nums;
+        }
+        public string ToLowercase(string s)
+        {
+            string a = s.ToLower();
+            return a;
+        }
 
 
 }

@@ -14,9 +14,10 @@ namespace Assessment
             {
                 for (int j = 1; j < i;  j++)
                 {
-                    Console.Write(" " + (num+2));
+                    Console.Write(" " + (num+i));
                     num--;
                 }
+                num++;
                 Console.WriteLine(" ");
             }         
         }
