@@ -13,17 +13,18 @@ namespace Assessment
 
             //Groupwords group = new Groupwords();
             //group.grouping();
-            Triangle tri = new Triangle();
-            tri.pattern();
+            //Triangle tri = new Triangle();
+            //tri.pattern();
             //Comparision com = new Comparision();
             //com.compa();
             //Groups_Word grp = new Groups_Word();
             //grp.grp_words();
-            //Lastgroupwords last = new Lastgroupwords();
+            Lastgroupwords last = new Lastgroupwords();
             //last.grup_lastword();
             //last.forgrplastword();
             // last.sortedarray([2, -5, 2, 5, 7]);
             //last.ToLowercase("Hello");
+            last.rotatestring("abcde", "cdeab");
         }
     }
 }   
