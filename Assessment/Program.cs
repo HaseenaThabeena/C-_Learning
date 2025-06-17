@@ -24,7 +24,8 @@ namespace Assessment
             //last.forgrplastword();
             // last.sortedarray([2, -5, 2, 5, 7]);
             //last.ToLowercase("Hello");
-            last.rotatestring("abcde", "cdeab");
+            //last.rotatestring("abcde", "cdeab");
+            last.FindNumbers([12, 345, 2, 6, 7896]);
         }
     }
 }   
